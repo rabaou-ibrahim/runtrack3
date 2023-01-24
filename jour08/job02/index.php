@@ -26,6 +26,8 @@
         <div class="form1">
 
             <p>Civilité :</p>
+            
+            <br>
 
             <input type="radio" id="civilite1" name="civilite">
                 <label for="civilite1">Homme</label><br>
