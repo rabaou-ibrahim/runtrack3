@@ -2,7 +2,6 @@
 <html>
 <head>
 <title>Jour08.Job01</title>
-<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -13,7 +12,7 @@
 
 <section>
 
-<h2 class="text-red-700 text-center">Formulaire de création de compte</h2>
+<h2>Formulaire de création de compte</h2>
 
 <br>
 <br>
@@ -21,7 +20,7 @@
 
 <form>
 
-    <div class="form text-center">
+    <div class="form">
 
         <div class="form1">
 
@@ -35,39 +34,39 @@
         </div>
         <br>
 
-        <div class="form2 border-solid">
+        <div class="form2">
 
                 <label for="prenom">Prénom :</label><br>
         <br>
-            <input class="border-2 border-red-600" type="text" id="prenom" name="prenom" autocomplete="off">
+            <input type="text" id="prenom" name="prenom" autocomplete="off">
         <br>
         <br>
                 <label for="nom">Nom :</label><br>
         <br>
-            <input class="border-2 border-red-600" type="text" id="nom" name="nom" autocomplete="off">
+            <input type="text" id="nom" name="nom" autocomplete="off">
         <br>
         <br>
                 <label for="adresse">Adresse :</label><br>
         <br>    
-            <input class="border-2 border-red-600" type="text" id="adresse" name="adresse" autocomplete="off">
+            <input type="text" id="adresse" name="adresse" autocomplete="off">
         <br>
         <br>
                 <label for="email">Email :</label><br>
         <br>    
-            <input class="border-2 border-red-600" type="email" id="email" name="email" autocomplete="off">
+            <input type="email" id="email" name="email" autocomplete="off">
 
         <br>
         <br>
                 <label for="password">Mot de passe :</label><br>
         <br>    
-            <input class="border-2 border-red-600" type="password" id="password" name="password" autocomplete="off">
+            <input type="password" id="password" name="password" autocomplete="off">
 
         <br>
         <br>
 
                 <label for="password">Confirmation du mot de passe :</label><br>
         <br>    
-            <input class="border-2 border-red-600" type="confirmed_password" id="confirmed_password" name="confirmed_password" autocomplete="off">
+            <input type="confirmed_password" id="confirmed_password" name="confirmed_password" autocomplete="off">
         
         </div>
         
@@ -96,8 +95,8 @@
     <br>
     <br>
 
-    <div class="submit text-center">
-        <input class="border-2" type="submit" name="Envoyer" value="Envoyer mon formulaire">
+    <div class="submit">
+        <input type="submit" name="Envoyer" value="Envoyer mon formulaire">
     </div>
 
 </form>
@@ -105,7 +104,7 @@
 
 <br>
 
-<footer class="text-center">
+<footer>
     <li><a href="index.php">Accueil</a></li>
     <li><a href="index.php">Inscription</a></li>
     <li><a href="index.php">Connexion</a></li>
