@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Jour08.Job02</title>
+<title>Jour08.Job03</title>
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,6 @@
 
 <h2 class="text-red-700 text-center">Formulaire de création de compte</h2>
 
-<br>
 <br>
 <br>
 
@@ -39,35 +38,35 @@
 
                 <label for="prenom">Prénom :</label><br>
         <br>
-            <input class="border-2 border-red-600" type="text" id="prenom" name="prenom" autocomplete="off">
+            <input class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="text" id="prenom" name="prenom" autocomplete="off">
         <br>
         <br>
                 <label for="nom">Nom :</label><br>
         <br>
-            <input class="border-2 border-red-600" type="text" id="nom" name="nom" autocomplete="off">
+            <input class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="text" id="nom" name="nom" autocomplete="off">
         <br>
         <br>
                 <label for="adresse">Adresse :</label><br>
         <br>    
-            <input class="border-2 border-red-600" type="text" id="adresse" name="adresse" autocomplete="off">
+            <input class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="text" id="adresse" name="adresse" autocomplete="off">
         <br>
         <br>
                 <label for="email">Email :</label><br>
         <br>    
-            <input class="border-2 border-red-600" type="email" id="email" name="email" autocomplete="off">
+            <input class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="email" id="email" name="email" autocomplete="off">
 
         <br>
         <br>
                 <label for="password">Mot de passe :</label><br>
         <br>    
-            <input class="border-2 border-red-600" type="password" id="password" name="password" autocomplete="off">
+            <input class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="password" id="password" name="password" autocomplete="off">
 
         <br>
         <br>
 
                 <label for="password">Confirmation du mot de passe :</label><br>
         <br>    
-            <input class="border-2 border-red-600" type="password" id="confirmed_password" name="confirmed_password" autocomplete="off">
+            <input class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="password" id="confirmed_password" name="confirmed_password" autocomplete="off">
         
         </div>
         
@@ -105,7 +104,7 @@
 
 <br>
 
-<footer class="text-center">
+<footer class="text-center list-none text-blue-800">
     <li><a href="index.php">Accueil</a></li>
     <li><a href="index.php">Inscription</a></li>
     <li><a href="index.php">Connexion</a></li>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Jour08.Job02</title>
+<title>Jour08.Job03</title>
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,6 @@
 
 <h2 class="text-red-700 text-center">Formulaire de création de compte</h2>
 
-<br>
 <br>
 <br>
 
@@ -105,7 +104,7 @@
 
 <br>
 
-<footer class="text-center">
+<footer class="text-center list-none text-blue-800">
     <li><a href="index.php">Accueil</a></li>
     <li><a href="index.php">Inscription</a></li>
     <li><a href="index.php">Connexion</a></li>

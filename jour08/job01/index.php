@@ -66,7 +66,7 @@
 
                 <label for="password">Confirmation du mot de passe :</label><br>
         <br>    
-            <input type="confirmed_password" id="confirmed_password" name="confirmed_password" autocomplete="off">
+            <input type="password" id="confirmed_password" name="confirmed_password" autocomplete="off">
         
         </div>
         
