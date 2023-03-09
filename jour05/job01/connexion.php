@@ -15,7 +15,7 @@
 
     <br>
 
-    <form action="Inserts/insert_connexion.php" method="post">
+    <form name="RegisterForm" method="post">
         <div class="formulaire">
         <br>
         <li>Votre pseudo :</li><br><input type="text" placeholder="Pseudo" name="username" autocomplete="off"/>        <br/>

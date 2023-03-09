@@ -1,0 +1,11 @@
+body {
+    background-image: url('Images/bg.png');
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}   

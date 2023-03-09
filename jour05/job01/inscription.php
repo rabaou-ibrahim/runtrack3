@@ -14,30 +14,30 @@
     <main>
 
     <div class="formulaire">
-        <form action="Inserts/insert_inscription.php" method="post">
-        <br>
-        <li>Nom :</li><br><input type="text" placeholder="Nom" name="nom" autocomplete="off"/>
+    <body>  
+    <form name="form" method="post" action="script.js">  
+        Prénom: <br/><br/><input type="text" name="firstname"><br/> 
         <br/>
+        <span id="firstname-error"></span>
+        Nom: <br/><br/><input type="text" name="firstname"><br/>
         <br/>
-        <li>Prenom :</li><br/><input type="text" placeholder="Prénom" name="prenom" autocomplete="off"/>
+        <span id="lastname-error"></span>
+        Email: <br/><br/><input type="text" name="firstname"><br/>
+        <span id="email-error"></span>
         <br/>
+        Mot de passe: <br/><br/><input type="text" name="password"><br/>
         <br/>
-        <li>Login :</li><br/><input type="text" placeholder="Login" name="login" autocomplete="off"/>
-        <br/>
-        <br/>
-        <li>Mot de passe :</li><br/><input type="password" placeholder="Mot de passe" name="password" autocomplete="off"/>
-        <br/>
-        <br/>
-        <li>Confimation du mot de passe :</li><br/><input type="password" placeholder="Confirmation du mot de passe" name="confirmed_password" autocomplete="off"/>
-        <br>
-        <br>
-        <input type="submit" name="Envoyer" value="Confirmer">
-        <br>
-        <br>    
-        </form>
+        Confirmation du mot de passe: <br/><br/><input type="password" name="confirmed_password"><br/> 
+        <br/> 
+    <button onclick="return validateLastname()">Confirmer</button> 
+    <span id="submit-error"></span>
+    </form>  
     </div>
 
+    <script src="srcipt.js"></script>
+
     </main>
+</body>
 
     <footer>
         <li><a href="https://laplateforme.io/"><img src="Images/logo_laplateforme_bleu3.png" height=100px width=400px></a>
